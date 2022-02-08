@@ -29,3 +29,4 @@ class Aluno extends PessoaPadrao implements IUsuario {
 
 const a = new Aluno('Gabriel','gabriel@gmail.com')
 console.log(a.getName());
+console.log(a.getEmail());
