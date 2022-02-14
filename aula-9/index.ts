@@ -12,7 +12,7 @@ class PessoaPadrao {
 }
 
 interface IUsuario {
-    getEmail(): string
+  getEmail(): string;
 }
 
 class Aluno extends PessoaPadrao implements IUsuario {
@@ -23,10 +23,10 @@ class Aluno extends PessoaPadrao implements IUsuario {
   }
 
   getEmail(): string {
-      return this.email
+    return this.email;
   }
 }
 
-const a = new Aluno('Gabriel','gabriel@gmail.com')
+const a = new Aluno("Gabriel", "gabriel@gmail.com");
 console.log(a.getName());
 console.log(a.getEmail());
