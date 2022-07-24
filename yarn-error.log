@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js set version stable
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\zukew\AppData\Local\Microsoft\WindowsApps;;C:\Users\zukew\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\zukew\AppData\Local\nvs\;C:\Users\zukew\AppData\Local\Yarn\bin;C:\Users\zukew\AppData\Roaming\npm;C:\Users\zukew\.deno\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Release not found: stable
+      at C:\Program Files (x86)\Yarn\lib\cli.js:86219:17
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+npm manifest: 
+  {
+    "name": "typescript-pro",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "tsc": "tsc",
+      "dev": "ts-node-dev --respawn"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "ts-node-dev": "^1.1.8",
+      "typescript": "^4.5.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

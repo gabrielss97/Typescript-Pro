@@ -1,0 +1,13 @@
+{
+  "name": "abstract-factory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.2"
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn index.ts"
+  }
+}
